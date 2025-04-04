@@ -33,6 +33,16 @@ The dataset contains images of cars grouped into directories by brand. If the da
 
 You may also include a small subset of sample images in a folder like `examples/` or `data/sample_images/` for demonstration purposes.
 
+
+car-brand-classifier/
+├── car_brand_classifier.ipynb   # Main training and testing notebook
+├── car_classifier.py            # Python script version (optional)
+├── data/                        # Example images or small subsets
+├── export.pkl                   # Trained model
+├── requirements.txt             # Dependencies (optional)
+└── README.md
+
+
 ## Getting Started
 
 1. Clone this repository or open the notebook in Google Colab:
@@ -42,3 +52,4 @@ You may also include a small subset of sample images in a folder like `examples/
    ```python
    from google.colab import drive
    drive.mount('/content/gdrive')
+
